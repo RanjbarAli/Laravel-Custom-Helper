@@ -20,7 +20,7 @@ RanjbarAli\LaravelCustomHelper\LaravelCustomHelperServiceProvider::class,
 
 You can publish configuration with:
 ```bash
-php artisan vendor:publish --tag="RanjbarAli\LaravelCustomHelper\LaravelCustomHelperServiceProvider::class",
+php artisan vendor:publish --tag="RanjbarAli\LaravelCustomHelper\LaravelCustomHelperServiceProvider::class"
 ```
 
 ## Usage
