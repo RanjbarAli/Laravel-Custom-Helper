@@ -1,6 +1,7 @@
 # Laravel Custom Helper
 
 Make custom helper just with one command!
+Very light!!!
 
 ## Installation
 
