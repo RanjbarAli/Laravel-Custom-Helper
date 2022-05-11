@@ -1,0 +1,29 @@
+{
+    "name": "ranjbarali/laravel-custom-helper",
+    "description": "Make custom helper just with one command",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Ranjbar",
+            "email": "info@aliranjbar.ir",
+            "homepage": "https://aliranjbar.ir"
+        }
+    ],
+    "homepage": "https://github.com/ranjbarali/laravel-custom-helper",
+    "keywords": ["Laravel", "LaravelCustomHelper"],
+    "autoload": {
+        "psr-4": {
+            "RanjbarAli\\LaravelCustomHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RanjbarAli\\LaravelCustomHelper\\LaravelCustomHelperServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCustomHelper": "RanjbarAli\\LaravelCustomHelper\\Facades\\LaravelCustomHelper"
+            }
+        }
+    }
+}
