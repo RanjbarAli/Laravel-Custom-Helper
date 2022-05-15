@@ -5,17 +5,12 @@ Very light!!!
 
 ## Installation
 
-#### requires Laravel 8+
+***requires Laravel 8+***
 
 Via composer:
 
 ```bash
 $ composer require RanjbarAli/Laravel-Custom-Helper
-```
-If you do not run Laravel 5.5 (or higher), then add the service provider in `config/app.php`:
-
-```php
-RanjbarAli\LaravelCustomHelper\LaravelCustomHelperServiceProvider::class,
 ```
 
 
