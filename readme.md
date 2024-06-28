@@ -24,6 +24,7 @@ Make helper with:
 ```bash
 php artisan make:helper {function_name}
 ```
+Now your helper php file is in `App` folder!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
